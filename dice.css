@@ -1,0 +1,41 @@
+.game{
+    display:grid;
+    grid-template-rows:300px 470px;
+    }
+    .header {
+      display:flex;
+      justify-content:center;
+      font-size:5em;
+      background-color:#C70039;
+    }
+     .header a{
+       text-decoration: none;
+       color:White;
+       align-self: center;
+     }
+    .players{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    background-color:#F8DE22;
+    align-items: center;
+    }
+    @media screen and (max-width: 600px){
+      .game{
+      display:grid;
+      grid-template-rows:300px 700px;
+      }
+      .header a p{
+       text-decoration: none;
+       font-size:0.7em;
+       color:White;
+       align-self: center;
+     }
+    }
+    .players h2{
+    text-align:center;
+    }
+    .RollDice{
+      font-size:0.7em;
+
+    }
